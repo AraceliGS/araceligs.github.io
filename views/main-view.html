@@ -12,11 +12,19 @@
 <body>
   <!-- Encabezado -->
   <header>
-    <nav>
+    <nav class="navbar">
       <div class="nav-wrapper">
         <a href="#" class="brand-logo logo">My Portfolio</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About me</a></li>
+          <li><a href="#">Soft Skills</a></li>
+          <li><a href="#">Tech Tools</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact me</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
           <li><a href="#">Home</a></li>
           <li><a href="#">About me</a></li>
           <li><a href="#">Soft Skills</a></li>
@@ -27,10 +35,12 @@
       </div>
     </nav>
   </header>
+  <!-- Main Image -->
   <section class="hero"></section>
+  <!-- Main Content -->
   <main>
     <!-- Section about me -->
-    <section>
+    <section class="peach-background">
       <div class="container flex-container about-me-container">
         <div class="row">
           <div class="col s12 col m12 col l6 about-me">
@@ -46,7 +56,7 @@
       </div>
     </section>
     <!-- Section about my soft skills -->
-    <section class="soft-skills-section">
+    <section class="soft-skills-section peach-background">
       <div class="container">
         <div class="row">
           <div class="col s12 m12 l12">
@@ -54,19 +64,19 @@
           </div>
         </div>
         <div class="row">
-          <div class="col s12 m12 l4">
+          <div class="col s12 m12 l4 center-align">
             <div>
               <img src="../assets/images/image1.jpg" class="responsive-img soft-skills-image" alt="Teamwork/Trabajo en equipo">
               <p>Teamwork</p>
             </div>
           </div>
-          <div class="col s12 m12 l4">
+          <div class="col s12 m12 l4 center-align">
             <div>
               <img src="../assets/images/image2.jpg" class="responsive-img soft-skills-image" alt="Public Speaking/Oratoria">
               <p>Public Speaking Skills</p>
             </div>
           </div>
-          <div class="col s12 m12 l4">
+          <div class="col s12 m12 l4 center-align">
             <div>
               <img src="../assets/images/image3.jpg" class="responsive-img soft-skills-image" alt="Resilience/Resiliencia">
               <p>Resilience</p>
@@ -76,136 +86,199 @@
       </div>
     </section>
     <!-- Section about my tech tools -->
-    <section>
+    <section class="peach-background">
       <div class="container">
         <div class="row">
           <div class="col s12 m12 l12">
             <h2>Tech Tools</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col s12 m12 l4">
+        <!-- Mobile View -->
+        <div class="row display-mobile">
+          <div class="col s6 m6">
             <div class="tech-tools-container">
-              <img src="../assets/images/image5.png" class="responsive-img" alt="HTML5">
+              <img src="../assets/images/image5.png" class="responsive-img tech-tools-image" alt="HTML5">
             </div>
           </div>
-          <div class="col s12 m12 l4">
+          <div class="col s6 m6">
             <div class="tech-tools-container">
-              <img src="../assets/images/image6.png" class="responsive-img" alt="CSS3">
-            </div>
-          </div>
-          <div class="col s12 m12 l4">
-            <div class="tech-tools-container">
-              <img src="../assets/images/image7.png" class="responsive-img" alt="Javascript">
+              <img src="../assets/images/image6.png" class="responsive-img tech-tools-image" alt="CSS3">
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col s12 m12 l4">
+        <div class="row display-mobile">
+          <div class="col s6 m6">
             <div class="tech-tools-container">
-              <img src="../assets/images/image8.svg" class="responsive-img" alt="jQuery">
+              <img src="../assets/images/image7.png" class="responsive-img tech-tools-image" alt="Javascript">
             </div>
           </div>
-          <div class="col s12 m12 l4">
+          <div class="col s6 m6">
             <div class="tech-tools-container">
-              <img src="../assets/images/image4.png" class="responsive-img" alt="Materialize">
-            </div>
-          </div>
-          <div class="col s12 m12 l4">
-            <div class="tech-tools-container">
-              <img src="../assets/images/image10.png" class="responsive-img" alt="Bootstrap">
+              <img src="../assets/images/image13.jpg" class="responsive-img tech-tools-image" alt="jQuery">
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col s12 m12 l4">
+        <div class="row display-mobile">
+          <div class="col s6 m6">
             <div class="tech-tools-container">
-              <img src="../assets/images/image9.png" class="responsive-img" alt="Github">
+              <img src="../assets/images/image4.png" class="responsive-img tech-tools-image" alt="Materialize">
             </div>
           </div>
-          <div class="col s12 m12 l4">
+          <div class="col s6 m6">
             <div class="tech-tools-container">
-              <img src="../assets/images/image11.png" class="responsive-img" alt="Babel">
+              <img src="../assets/images/image10.png" class="responsive-img tech-tools-image" alt="Bootstrap">
             </div>
           </div>
-          <div class="col s12 m12 l4">
+        </div>
+        <div class="row display-mobile">
+          <div class="col s6 m6">
             <div class="tech-tools-container">
-              <img src="../assets/images/image12.png" class="responsive-img" alt="NPM">
+              <img src="../assets/images/image9.png" class="responsive-img tech-tools-image" alt="Github">
+            </div>
+          </div>
+          <div class="col s6 m6">
+            <div class="tech-tools-container">
+              <img src="../assets/images/image11.png" class="responsive-img tech-tools-image" alt="Babel">
+            </div>
+          </div>
+        </div>
+        <div class="row display-mobile margin-bottom-zero">
+          <div class="col s12 m12">
+            <div class="tech-tools-container">
+              <img src="../assets/images/image12.png" class="responsive-img tech-tools-image last-tech-tool" alt="NPM">
+            </div>
+          </div>
+        </div>
+        <!-- Desktop View-->
+        <div class="row display-desktop">
+          <div class="col l4">
+            <div class="tech-tools-container">
+              <img src="../assets/images/image5.png" class="responsive-img tech-tools-image" alt="HTML5">
+            </div>
+          </div>
+          <div class="col l4">
+            <div class="tech-tools-container">
+              <img src="../assets/images/image6.png" class="responsive-img tech-tools-image" alt="CSS3">
+            </div>
+          </div>
+          <div class="col l4">
+            <div class="tech-tools-container">
+              <img src="../assets/images/image7.png" class="responsive-img tech-tools-image" alt="Javascript">
+            </div>
+          </div>
+        </div>
+        <div class="row display-desktop">
+          <div class="col l4">
+            <div class="tech-tools-container">
+              <img src="../assets/images/image13.jpg" class="responsive-img tech-tools-image" alt="jQuery">
+            </div>
+          </div>
+          <div class="col l4">
+            <div class="tech-tools-container">
+              <img src="../assets/images/image4.png" class="responsive-img tech-tools-image" alt="Materialize">
+            </div>
+          </div>
+          <div class="col l4">
+            <div class="tech-tools-container">
+              <img src="../assets/images/image10.png" class="responsive-img tech-tools-image" alt="Bootstrap">
+            </div>
+          </div>
+        </div>
+        <div class="row display-desktop margin-bottom-zero">
+          <div class="col l4">
+            <div class="tech-tools-container">
+              <img src="../assets/images/image9.png" class="responsive-img tech-tools-image" alt="Github">
+            </div>
+          </div>
+          <div class="col l4">
+            <div class="tech-tools-container">
+              <img src="../assets/images/image11.png" class="responsive-img tech-tools-image" alt="Babel">
+            </div>
+          </div>
+          <div class="col l4">
+            <div class="tech-tools-container">
+              <img src="../assets/images/image12.png" class="responsive-img tech-tools-image" alt="NPM">
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Section about my projects -->
-    <section>
+    <section class="peach-background">
       <div class="container">
         <div class="row">
-          <h2>Projects</h2>
+          <h2 class="h2-section-project">Projects</h2>
         </div>
-        <div class="row">
-          <div class="col s12 m12 l4">
-            <img src="../assets/images/project1.JPG" class="responsive-img" alt="Project 1">
+        <div class="row margin-bottom-zero">
+          <div class="col s12 m12 l4 center-align">
+            <div>
+              <img src="../assets/images/project1.JPG" class="responsive-img project-image" alt="Project 1">
+            </div>
           </div>
-          <div class="col s12 m12 l4">
-            <img src="../assets/images/project2.JPG" class="responsive-img" alt="Project 2">
+          <div class="col s12 m12 l4 center-align">
+            <div>
+              <img src="../assets/images/project2.JPG" class="responsive-img project-image" alt="Project 2">
+            </div>
           </div>
-          <div class="col s12 m12 l4">
-            <img src="../assets/images/project3.JPG" class="responsive-img" alt="Project 3">
+          <div class="col s12 m12 l4 center-align">
+            <div>
+              <img src="../assets/images/project3.JPG" class="responsive-img project-image" alt="Project 3">
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Footer -->
-    <footer style="background-color:skyblue">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m12 l12">
-            <h3 class="center-align">Contact me</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 m12 l12">
-            <p class="center-align">If you like my projects, don't hesitate to contact me.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s6 m6 l6">
-            <p><i class="fas fa-envelope"></i></p>
-            <p><a href="#">aragutarras@gmail.com</a></p>
-          </div>
-          <div class="col s6 m6 l6">
-            <p><i class="fab fa-whatsapp"></i></p>
-            <p>Whatsapp</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s4 m4 l4">
-            <div>
-              <p>
-                <span><i class="fas fa-download"></i></span>
-                <span>CV</span>
-              </p>
-            </div>
-          </div>
-          <div class="col s4 m4 l4">
-            <div>
-              <p><i class="fab fa-github"></i></p>
-            </div>
-          </div>
-          <div class="col s4 m4 l4">
-            <div>
-              <p><i class="fab fa-linkedin-in"></i></p>
-            </div>
-          </div>   
-        </div>
-        <div class="row footer-bottom">
-          <div class="col s12 m12 l12 center-align">
-            <p>&#169; Araceli Gutarra Soto - 2017</p>
-          </div>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <h3 class="center-align">Contact me</h3>
         </div>
       </div>
-    </footer>
-  </main>
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <p class="center-align">If you like my projects, don't hesitate to contact me.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6 m6 l6 center-align">
+          <p><i class="fas fa-envelope icon"></i></p>
+          <p>aragutarras@gmail.com</p>
+        </div>
+        <div class="col s6 m6 l6 center-align">
+          <p><i class="fab fa-whatsapp icon"></i></p>
+          <p>927 195 278</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s4 m4 l4 center-align">
+          <div>
+            <p>
+              <span><i class="fas fa-download icon"></i></span>
+              <span>CV</span>
+            </p>
+          </div>
+        </div>
+        <div class="col s4 m4 l4 center-align">
+          <div>
+            <p><a href="https://github.com/AraceliGS" target="_blank"><i class="fab fa-github icon"></i></a></p>
+          </div>
+        </div>
+        <div class="col s4 m4 l4 center-align">
+          <div>
+            <p><a href="https://www.linkedin.com/in/araceli-cristina-gutarra-soto-b180bb140/" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></p>
+          </div>
+        </div>   
+      </div>
+      <div class="row footer-bottom">
+        <div class="col s12 m12 l12 center-align">
+          <p>&#169; Araceli Gutarra Soto - 2017</p>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="../vendors/materialize/js/materialize.min.js"></script>
