@@ -1,1 +1,109 @@
+/* Styles */
+* {
+  box-sizing: border-box;
+}
 
+/* Styles for header */
+
+nav .brand-logo {
+  font-size: 2rem;
+}
+
+.logo {
+  margin-left: 0em;
+}
+
+/* Styles for main image */
+
+.hero {
+  width: 100%;
+  height: 450px;
+  background-image: url('../assets/images/hero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Styles for main */
+/* Styles for container */
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-container {
+  margin-top: 2.3em;
+}
+
+.about-me {
+  margin: 1.5em 0 3.5em;
+}
+
+/* Styles for my description's paragraph */
+
+.my-description {
+  text-align: justify;
+}
+
+/* Styles for my image */
+
+.image-div {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-image {
+  width: 17em;
+}
+
+/* Styles for footer */
+
+.footer-bottom {
+  margin-bottom: 0;
+}
+
+/* Styles for Soft Skills' section */
+
+.soft-skills-section {
+  margin: 3em 0 3.5em;
+}
+
+/* Styles for Soft Skills' images*/
+.soft-skills-image {
+  width: 100%;
+}
+
+/* Styles for Tech Tools' section */
+.tech-tools-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 264px;
+  margin: 1em 1em 2em;
+}
+
+@media(min-width:601px) {
+  nav .brand-logo {
+    font-size: 2.1rem;
+  }
+
+  /*.soft-skills-image {
+    width: 75%;
+  }*/
+}
+
+@media(min-width: 993px) {
+  .logo {
+    margin-left: 1.2em;
+  }
+
+  img.soft-skills-image {
+    /*width: 100%;*/
+    height: 12em;
+  }
+
+  .image-div {
+    align-items: flex-end;
+  }
+}
