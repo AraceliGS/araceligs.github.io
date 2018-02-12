@@ -2,10 +2,10 @@
 * {
   box-sizing: border-box;
 }
-
+/*
 .peach-background {
   background-color: #fcd5ce;
-}
+}*/
 
 .margin-bottom-zero {
   margin-bottom: 0;
@@ -13,7 +13,7 @@
 
 /* Styles for header */
 .navbar {
-  background-color: #016d9f;
+  background-color: #e26575;
 }
 
 nav .brand-logo {
@@ -25,11 +25,11 @@ nav .brand-logo {
 }
 
 nav ul a:hover {
-  background-color: #01c5ce;
+  background-color: #fe97a8;
 }
 
 .side-nav li>a:hover {
-  background-color: #01c5ce;
+  background-color: #fe97a8;
 }
 
 /* Styles for main image */
@@ -84,6 +84,10 @@ nav ul a:hover {
 
 /* Styles for section about projects*/
 
+.last-section {
+  padding-bottom: 5em;  
+}
+
 .h2-section-project {
   padding-top: 1.78rem;
   margin: 0 0 1.424rem 0;
@@ -92,7 +96,7 @@ nav ul a:hover {
 /* Styles for footer */
 
 footer {
-  background-color: #016d9f;
+  background-color: #e26575;
   color: white;
 }
 
@@ -106,7 +110,7 @@ footer {
 }
 
 .footer-bottom {
-  margin-bottom: 0;
+  padding: 2em 0;
 }
 
 /* Styles for Soft Skills' section */
@@ -170,7 +174,7 @@ footer {
 
 @media(min-width: 993px) {
   .container {
-    width: 72%;
+    width: 75%;
   }
 
   .logo {
@@ -205,6 +209,10 @@ footer {
   
   .display-desktop {
     display: block;
+  }
+
+  .last-section {
+    padding-bottom: 3.5em;    
   }
 
   .project-image {

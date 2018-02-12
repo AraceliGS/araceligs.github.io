@@ -1,3 +1,5 @@
 $(document).ready(function() {
-  $('.button-collapse').sideNav();
+  setTimeout(() => {
+    window.location.href = 'views/main-view.html';
+  }, 5000);
 });
