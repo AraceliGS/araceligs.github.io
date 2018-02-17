@@ -11,26 +11,33 @@
 </head>
 <body>
   <!-- Encabezado -->
-  <header>
+  <header class="display-mobile" id="home">
     <nav class="navbar">
       <div class="nav-wrapper">
         <a href="#" class="brand-logo logo">My Portfolio</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Soft Skills</a></li>
-          <li><a href="#">Tech Tools</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact me</a></li>
-        </ul>
         <ul class="side-nav" id="mobile-demo">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Soft Skills</a></li>
-          <li><a href="#">Tech Tools</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact me</a></li>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#aboutMe">Acerca de mí</a></li>
+          <li><a href="#softSkills">Habilidades Blandas</a></li>
+          <li><a href="#techTools">Herramientas Tech</a></li>
+          <li><a href="#projectSection">Proyectos</a></li>
+          <li><a href="#contact">Contáctame</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <header class="display-desktop navbar-fixed" id="home">
+    <nav class="navbar">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo logo">My Portfolio</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#aboutMe">Acerca de mí</a></li>
+          <li><a href="#softSkills">Habilidades Blandas</a></li>
+          <li><a href="#techTools">Herramientas Tech</a></li>
+          <li><a href="#projectSection">Proyectos</a></li>
+          <li><a href="#contact">Contáctame</a></li>
         </ul>
       </div>
     </nav>
@@ -40,13 +47,13 @@
   <!-- Main Content -->
   <main>
     <!-- Section about me -->
-    <section class="peach-background">
+    <section class="peach-background" id="aboutMe">
       <div class="container flex-container about-me-container">
         <div class="row">
           <div class="col s12 col m12 col l6 about-me">
             <div>
-              <h2>About me</h2>
-              <p class="my-description">Hello, my name is Araceli. I'm a student at Laboratoria specialized in front-end development. Apart from the code, I am passionate about dancing, drawing and painting. I have the dream of forming my own company and specializing in mobile and robotics.</p>
+              <h2>Acerca de mí</h2>
+              <p class="my-description">Hola, me llamo Araceli. Soy una estudiante de Laboratoria especializada en front-end development. Aparte del código, me apasiona bailar, dibujar y pintar. Tengo el sueño de formar mi propia empresa y especializarme en mobile y robótica.</p>
             </div>
           </div>
           <div class="image-div col s12 col m12 col l6">
@@ -56,41 +63,41 @@
       </div>
     </section>
     <!-- Section about my soft skills -->
-    <section class="soft-skills-section peach-background">
+    <section class="soft-skills-section peach-background" id="softSkills">
       <div class="container">
         <div class="row">
-          <div class="col s12 m12 l12">
-            <h2>Main Soft Skills</h2>
+          <div class="col s12 m12 l12 soft-skills-title">
+            <h2>Principales Habilidades Blandas</h2>
           </div>
         </div>
         <div class="row">
           <div class="col s12 m12 l4 center-align">
             <div>
               <img src="../assets/images/image1.jpg" class="responsive-img soft-skills-image" alt="Teamwork/Trabajo en equipo">
-              <p>Teamwork</p>
+              <p>Capacidad para trabajar en equipo</p>
             </div>
           </div>
           <div class="col s12 m12 l4 center-align">
             <div>
               <img src="../assets/images/image2.jpg" class="responsive-img soft-skills-image" alt="Public Speaking/Oratoria">
-              <p>Public Speaking Skills</p>
+              <p>Capacidad para realizar presentaciones en público</p>
             </div>
           </div>
           <div class="col s12 m12 l4 center-align">
             <div>
               <img src="../assets/images/image3.jpg" class="responsive-img soft-skills-image" alt="Resilience/Resiliencia">
-              <p>Resilience</p>
+              <p>Resiliencia</p>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Section about my tech tools -->
-    <section class="peach-background">
+    <section class="peach-background" id="techTools">
       <div class="container">
         <div class="row">
           <div class="col s12 m12 l12">
-            <h2>Tech Tools</h2>
+            <h2>Herramientas Tech</h2>
           </div>
         </div>
         <!-- Mobile View -->
@@ -204,15 +211,15 @@
       </div>
     </section>
     <!-- Section about my projects -->
-    <section class="peach-background last-section">
+    <section class="peach-background last-section" id="projectSection">
       <div class="container">
         <div class="row">
-          <h2 class="h2-section-project">Projects</h2>
+          <h2 class="h2-section-project">Mis Proyectos</h2>
         </div>
         <div class="row margin-bottom-zero">
           <div class="col s12 m12 l4 center-align">
             <div>
-              <img src="../assets/images/project1.JPG" class="responsive-img project-image" alt="Project 1">
+              <img src="../assets/images/project1.JPG" class="responsive-img project-image first-project" alt="Project 1">
             </div>
           </div>
           <div class="col s12 m12 l4 center-align">
@@ -230,16 +237,16 @@
     </section>
   </main>
   <!-- Footer -->
-  <footer>
+  <footer id="contact">
     <div class="container">
       <div class="row">
         <div class="col s12 m12 l12">
-          <h3 class="center-align">Contact me</h3>
+          <h3 class="center-align">Contáctame</h3>
         </div>
       </div>
       <div class="row">
         <div class="col s12 m12 l12">
-          <p class="center-align">If you like my projects, don't hesitate to contact me.</p>
+          <p class="center-align">Si te gustaron mis proyectos, no dudes en contactarme.</p>
         </div>
       </div>
       <div class="row">
