@@ -46,7 +46,7 @@ nav ul a:hover {
 .hero {
   max-width: 100%;
   height: 450px;
-  background-image: url('../assets/images/hero.jpg');
+  background-image: url('../assets/images/hero2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,6 +102,38 @@ nav ul a:hover {
   margin: 0 0 1.424rem 0;
 }
 
+.project-container {
+  position: relative;
+}
+
+.view-project {
+  background-color: rgba(192, 192, 192, 0.5);
+  position: absolute;
+}
+
+.project-paragraph-1 {
+  width: 94.7%;
+  bottom: -0.7em;
+  left: 0.45em;
+}
+
+.project-paragraph-2 {
+  width: 100%;
+  bottom: -0.7em;
+  left: 0em;
+}
+
+.project-paragraph-3 {
+  width: 97.2%;
+  bottom: -0.7em;
+  left: 0.2em;
+}
+
+
+/* .icon-project {
+
+} */
+
 /* Styles for footer */
 
 footer {
@@ -148,11 +180,11 @@ footer {
 }
 
 .tech-tools-image {
-  width: 60%;
+  width: 90%;
 }
 
 .last-tech-tool {
-  width: 40%;
+  width: 42.085%;
 }
 
 .display-mobile {
@@ -185,11 +217,11 @@ footer {
   }
 
   .tech-tools-image {
-    width: 55%;
+    width: 70.055%;
   }
   
   .last-tech-tool {
-    width: 35%;
+    width: 33.9%;
   }
 }
 
@@ -229,7 +261,6 @@ footer {
   }
 
   img.soft-skills-image {
-    height: 12em;
     width: 100%;
   }
 
@@ -258,5 +289,9 @@ footer {
 
   div .first-project  {
     margin-top: 0;
+  }
+
+  div .third-project {
+    max-width: 97%;
   }
 }
