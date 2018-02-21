@@ -3,6 +3,24 @@
   box-sizing: border-box;
 }
 
+
+/* Styles for Splash */
+
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.splash-image {
+  width: 100vw;
+  margin-bottom: 1.7em;
+}
+
+/* Styles for Main View*/
+
 p {
   font-size: 1.2em;
 }
@@ -21,12 +39,22 @@ h2 {
   background-color: #e26575;
 }
 
+nav .nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 nav .brand-logo {
   font-size: 2rem;
+  margin-left: 0em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
-  margin-left: 0em;
+  width: 40%;
 }
 
 nav ul a:hover {
@@ -84,6 +112,13 @@ nav ul a:hover {
 }
 
 /* Styles for Tech Skills' section */
+
+.tech-tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .tech-tools-image {
   width: 35%;
 }
@@ -101,6 +136,9 @@ nav ul a:hover {
 
 .project-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .view-project {
@@ -111,22 +149,9 @@ nav ul a:hover {
   align-items: center;
 }
 
-.project-paragraph-1 {
-  width: 94.7%;
-  bottom: -0.7em;
-  left: 0.45em;
-}
-
-.project-paragraph-2 {
-  width: 100%;
-  bottom: -0.7em;
-  left: 0em;
-}
-
-.project-paragraph-3 {
-  width: 97.2%;
-  bottom: -0.7em;
-  left: 0.2em;
+.project-paragraph-1, .project-paragraph-2, .project-paragraph-3 {
+  width: 80%;
+  bottom: 1.5em;
 }
 
 .span-container {
@@ -176,7 +201,7 @@ footer {
 /* Styles for Tech Tools' section */
 
 .tech-tools-section {
-  padding-bottom: 0.8em;
+  padding-bottom: 4.8em;
 }
 
 .tech-tools-container {
@@ -215,8 +240,23 @@ footer {
 }
 
 @media(min-width:601px) {
+
+  .splash-image {
+    width: 80vw;
+    margin-bottom: 2.5em;
+  }
+
   nav .brand-logo {
     font-size: 2.1rem;
+    margin-left: 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    width: 20%;
   }
 
   img.soft-skills-image {
@@ -244,6 +284,10 @@ footer {
     font-size: 1.3em;
   }
 
+  .splash-image {
+    width: 74vw; 
+  }
+
   .display-mobile {
     display: none;
   }
@@ -256,8 +300,17 @@ footer {
     width: 75%;
   }
 
-  .logo {
+  nav .nav-wrapper {
+    display: block;
+  }
+
+  nav .brand-logo {
     margin-left: 1.2em;
+    display: inline-block;
+  }
+
+  .logo {
+    width: 11%;
   }
 
   .about-me-container {
@@ -300,11 +353,32 @@ footer {
     margin-bottom: 0;
   }  
 
+  .project-paragraph-1 {
+    width: 94%;
+    bottom: -1em;
+  }
+
+  .project-paragraph-2 {
+    width: 100%;
+    bottom: -1em;
+  }
+
+  .project-paragraph-3 {
+    width: 97%;
+    bottom: -1em;
+  }
+
   div .first-project  {
     margin-top: 0;
   }
 
   div .third-project {
     max-width: 97%;
+  }
+}
+
+@media(min-width: 1201px) {
+  .splash-image {
+    width: 35vw;
   }
 }

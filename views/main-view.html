@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My Portfolio</title>
+  <link rel="stylesheet" href="../vendors/rateyo/jquery.rateyo.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
   <link rel="stylesheet" href="../css/main.css">
@@ -14,7 +15,7 @@
   <header class="display-mobile">
     <nav class="navbar">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo logo">My Portfolio</a>
+        <a href="#" class="brand-logo"><img src="../assets/images/logo.png" class="responsive-img logo" alt="Logo"></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="side-nav" id="mobile-demo">
           <li><a href="#home">Inicio</a></li>
@@ -30,7 +31,7 @@
   <header class="display-desktop navbar-fixed">
     <nav class="navbar">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo logo">My Portfolio</a>
+        <a href="#" class="brand-logo"><img src="../assets/images/logo.png" class="responsive-img logo" alt="Logo"></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#home">Inicio</a></li>
           <li><a href="#aboutMe">Acerca de mí</a></li>
@@ -96,116 +97,134 @@
     <section class="tech-tools-section" id="techTools">
       <div class="container">
         <div class="row">
-          <div class="col s12 m12 l12">
+          <div class="col s12 m12 l12 tech-tool">
             <h2>Herramientas Tech</h2>
           </div>
         </div>
         <!-- Mobile View -->
         <div class="row display-mobile">
-          <div class="col s6 m6">
+          <div class="col s6 m6 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image5.png" class="responsive-img tech-tools-image" alt="HTML5">
             </div>
+            <div id="rateYo-0-1"></div>
           </div>
-          <div class="col s6 m6">
+          <div class="col s6 m6 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image6.png" class="responsive-img tech-tools-image" alt="CSS3">
             </div>
+            <div id="rateYo-0-2"></div>
           </div>
         </div>
         <div class="row display-mobile">
-          <div class="col s6 m6">
+          <div class="col s6 m6 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image7.png" class="responsive-img tech-tools-image" alt="Javascript">
             </div>
+            <div id="rateYo-0-3"></div>
           </div>
-          <div class="col s6 m6">
+          <div class="col s6 m6 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image13.jpg" class="responsive-img tech-tools-image" alt="jQuery">
             </div>
+            <div id="rateYo-0-4"></div>
           </div>
         </div>
         <div class="row display-mobile">
-          <div class="col s6 m6">
+          <div class="col s6 m6 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image4.png" class="responsive-img tech-tools-image" alt="Materialize">
             </div>
+            <div id="rateYo-0-5"></div>
           </div>
-          <div class="col s6 m6">
+          <div class="col s6 m6 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image10.png" class="responsive-img tech-tools-image" alt="Bootstrap">
             </div>
+            <div id="rateYo-0-6"></div>
           </div>
         </div>
         <div class="row display-mobile">
-          <div class="col s6 m6">
+          <div class="col s6 m6 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image11.png" class="responsive-img tech-tools-image" alt="Github">
             </div>
+            <div id="rateYo-0-7"></div>
           </div>
-          <div class="col s6 m6">
+          <div class="col s6 m6 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image9.png" class="responsive-img tech-tools-image" alt="Babel">
             </div>
+            <div id="rateYo-0-8"></div>
           </div>
         </div>
         <div class="row display-mobile margin-bottom-zero">
-          <div class="col s12 m12">
+          <div class="col s12 m12 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image12.png" class="responsive-img tech-tools-image last-tech-tool" alt="NPM">
             </div>
+            <div id="rateYo-0-9"></div>
           </div>
         </div>
         <!-- Desktop View-->
         <div class="row display-desktop">
-          <div class="col l4">
+          <div class="col l4 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image5.png" class="responsive-img tech-tools-image" alt="HTML5">
             </div>
+            <div id="rateYo-1"></div>
           </div>
-          <div class="col l4">
+          <div class="col l4 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image6.png" class="responsive-img tech-tools-image" alt="CSS3">
             </div>
+            <div id="rateYo-2"></div>
           </div>
-          <div class="col l4">
+          <div class="col l4 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image7.png" class="responsive-img tech-tools-image" alt="Javascript">
             </div>
+            <div id="rateYo-3"></div>
           </div>
         </div>
         <div class="row display-desktop">
-          <div class="col l4">
+          <div class="col l4 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image13.jpg" class="responsive-img tech-tools-image" alt="jQuery">
             </div>
+            <div id="rateYo-4"></div>
           </div>
-          <div class="col l4">
+          <div class="col l4 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image4.png" class="responsive-img tech-tools-image" alt="Materialize">
             </div>
+            <div id="rateYo-5"></div>
           </div>
-          <div class="col l4">
+          <div class="col l4 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image10.png" class="responsive-img tech-tools-image" alt="Bootstrap">
             </div>
+            <div id="rateYo-6"></div>
           </div>
         </div>
         <div class="row display-desktop margin-bottom-zero">
-          <div class="col l4">
+          <div class="col l4 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image11.png" class="responsive-img tech-tools-image" alt="Github">
             </div>
+            <div id="rateYo-7"></div>
           </div>
-          <div class="col l4">
+          <div class="col l4 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image9.png" class="responsive-img tech-tools-image" alt="Babel">
             </div>
+            <div id="rateYo-8"></div>
           </div>
-          <div class="col l4">
+          <div class="col l4 tech-tool">
             <div class="tech-tools-container">
               <img src="../assets/images/image12.png" class="responsive-img tech-tools-image" alt="NPM">
             </div>
+            <div id="rateYo-9"></div>
           </div>
         </div>
       </div>
@@ -300,6 +319,7 @@
   </footer>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="../vendors/rateyo/jquery.rateyo.min.js"></script>
   <script src="../vendors/materialize/js/materialize.min.js"></script>
   <script src="../js/main-view.js"></script>
 </body>
