@@ -28,6 +28,7 @@ p {
 h2 {
   font-size: 2.5em;
   text-align: center;
+  width: 100%;
 }
 
 .margin-bottom-zero {
@@ -70,10 +71,21 @@ nav ul a:hover {
 .hero {
   max-width: 100%;
   height: 450px;
-  background-image: url('../assets/images/hero2.jpg');
+  background-image: url('../assets/images/hero.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.8;
+}
+
+.name {
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6.5em;
+  color: #e26575;
 }
 
 /* Styles for main */
@@ -86,6 +98,11 @@ nav ul a:hover {
 .about-me-container {
   padding-top: 2.3em;
   padding-bottom: 2.3em;
+}
+
+.about-me-row {
+  display: flex;
+  align-items: center;
 }
 
 .about-me {
@@ -126,7 +143,7 @@ nav ul a:hover {
 /* Styles for section about projects*/
 
 .last-section {
-  padding-bottom: 5em;  
+  padding-bottom: 4em;  
 }
 
 .h2-section-project {
@@ -142,16 +159,24 @@ nav ul a:hover {
 }
 
 .view-project {
-  background-color: rgba(192, 192, 192, 0.5);
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
-.project-paragraph-1, .project-paragraph-2, .project-paragraph-3 {
-  width: 80%;
-  bottom: 1.5em;
+.project-button {
+  background-color: #e26575;
+  font-size: 1.5em;
+  padding: 1em 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.btn:hover, .btn-large:hover, .btn:focus, .btn-large:focus, .btn-floating:focus {
+  background-color: #f58375;
 }
 
 .span-container {
@@ -159,7 +184,7 @@ nav ul a:hover {
 }
 
 .icon-project {
-  color: black;
+  color: #fff;
 } 
 
 /* Styles for footer */
@@ -170,7 +195,7 @@ footer {
 }
 
 .icon {
-  font-size: 1.6em;
+  font-size: 1.65em;
   color: white;
 }
 
@@ -372,8 +397,12 @@ footer {
     margin-top: 0;
   }
 
+  div .second-project {
+    max-width: 86%;
+  }
+
   div .third-project {
-    max-width: 97%;
+    max-width: 89%;
   }
 }
 
