@@ -54,7 +54,7 @@ $(document).ready(function() {
     $('#rateYo-0-7').rateYo({
       starWidth: '25px',
       normalFill: '#A0A0A0',
-      rating: 3,
+      rating: 4,
       spacing: '5px',
       halfStar: true,
       readOnly: true
@@ -70,7 +70,7 @@ $(document).ready(function() {
     $('#rateYo-0-9').rateYo({
       starWidth: '25px',
       normalFill: '#A0A0A0',
-      rating: 3,
+      rating: 4,
       spacing: '5px',
       halfStar: true,
       readOnly: true
@@ -127,7 +127,7 @@ $(document).ready(function() {
     $('#rateYo-7').rateYo({
       starWidth: '35px',
       normalFill: '#A0A0A0',
-      rating: 3,
+      rating: 4,
       spacing: '10px',
       halfStar: true,
       readOnly: true
@@ -143,7 +143,7 @@ $(document).ready(function() {
     $('#rateYo-9').rateYo({
       starWidth: '35px',
       normalFill: '#A0A0A0',
-      rating: 3,
+      rating: 4,
       spacing: '10px',
       halfStar: true,
       readOnly: true

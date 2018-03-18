@@ -23,6 +23,7 @@
 
 p {
   font-size: 1.2em;
+  word-break: break-word;
 }
 
 h2 {
@@ -302,7 +303,7 @@ footer {
   h2 {
     font-size: 3.1em;
     text-align: left; 
-    margin-bottom: 0.5em; 
+    margin-bottom: 0.65em; 
   }
 
   p {
@@ -355,6 +356,10 @@ footer {
     margin: 1em 1em 2em;
   }
 
+  .h2-tech-tools-title {
+    margin-bottom: 0.8em; 
+  }
+
   .tech-tools-image {
     width: 65%;
   }
@@ -370,12 +375,13 @@ footer {
 
   .h2-section-project {
     padding-top: 1.78rem;
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1.7rem 0;
   }
 
   .project-image {
     width: 100%;
     margin-bottom: 0;
+    margin-bottom: 1em;
   }  
 
   .project-paragraph-1 {
@@ -404,10 +410,18 @@ footer {
   div .third-project {
     max-width: 89%;
   }
+
+  .project-button {
+    padding: 0.9em 1.3em;
+  }
 }
 
 @media(min-width: 1201px) {
   .splash-image {
     width: 35vw;
+  }
+
+  .project-button {
+    padding: 1em 1.75em;
   }
 }
