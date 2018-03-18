@@ -75,6 +75,30 @@ $(document).ready(function() {
       halfStar: true,
       readOnly: true
     });
+    $('#rateYo-0-10').rateYo({
+      starWidth: '25px',
+      normalFill: '#A0A0A0',
+      rating: 3.5,
+      spacing: '5px',
+      halfStar: true,
+      readOnly: true
+    });
+    $('#rateYo-0-11').rateYo({
+      starWidth: '25px',
+      normalFill: '#A0A0A0',
+      rating: 3.5,
+      spacing: '5px',
+      halfStar: true,
+      readOnly: true
+    });
+    $('#rateYo-0-12').rateYo({
+      starWidth: '25px',
+      normalFill: '#A0A0A0',
+      rating: 3.5,
+      spacing: '5px',
+      halfStar: true,
+      readOnly: true
+    });
     // Estrellas vista desktop
     $('#rateYo-1').rateYo({
       starWidth: '35px',
@@ -144,6 +168,30 @@ $(document).ready(function() {
       starWidth: '35px',
       normalFill: '#A0A0A0',
       rating: 4,
+      spacing: '10px',
+      halfStar: true,
+      readOnly: true
+    });
+    $('#rateYo-10').rateYo({
+      starWidth: '35px',
+      normalFill: '#A0A0A0',
+      rating: 3.5,
+      spacing: '10px',
+      halfStar: true,
+      readOnly: true
+    });
+    $('#rateYo-11').rateYo({
+      starWidth: '35px',
+      normalFill: '#A0A0A0',
+      rating: 3.5,
+      spacing: '10px',
+      halfStar: true,
+      readOnly: true
+    });
+    $('#rateYo-12').rateYo({
+      starWidth: '35px',
+      normalFill: '#A0A0A0',
+      rating: 3.5,
       spacing: '10px',
       halfStar: true,
       readOnly: true
