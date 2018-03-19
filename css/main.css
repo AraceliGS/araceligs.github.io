@@ -72,7 +72,7 @@ nav ul a:hover {
 .hero {
   max-width: 100%;
   height: 450px;
-  background-image: url('../assets/images/hero.jpeg');
+  background-image: url('../assets/images/hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,10 +135,6 @@ nav ul a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.tech-tools-image {
-  width: 35%;
 }
 
 /* Styles for section about projects*/
@@ -238,8 +234,8 @@ footer {
 }
 
 .tech-tools-image {
-  width: 90%;
-}
+  width: 80%;
+} 
 
 .last-tech-tool {
   width: 42.085%;
@@ -290,7 +286,7 @@ footer {
   }
 
   .tech-tools-image {
-    width: 70.055%;
+    width: 55%;
   }
   
   .last-tech-tool {
@@ -361,7 +357,7 @@ footer {
   }
 
   .tech-tools-image {
-    width: 65%;
+    width: 60%;
   }
 
   .last-tech-tool-row {
