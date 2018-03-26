@@ -197,5 +197,39 @@ $(document).ready(function() {
       readOnly: true
     });
   });
+
+  var image1 = $('#soft-skill-1').attr('src');
+  var image2 = $('#soft-skill-2').attr('src');
+  var image3 = $('#soft-skill-3').attr('src');
+
+  $('.soft-skill-container').on('mouseover', '#soft-skill-1', function() {
+    $('#soft-skill-1').attr('src', '../assets/images/image4.jpg');
+    $('#soft-skill-1').removeClass('img.soft-skills-image');
+    $('#soft-skill-1').addClass('soft-skills-image-2'); 
+  });
+
+  $('.soft-skill-container').on('mouseover', '#soft-skill-2', function() {
+    $('#soft-skill-2').attr('src', '../assets/images/image5.jpg');
+    $('#soft-skill-2').removeClass('img.soft-skills-image');
+    $('#soft-skill-2').addClass('soft-skills-image-2');
+  });
+
+  $('.soft-skill-container').on('mouseover', '#soft-skill-3', function() {
+    $('#soft-skill-3').attr('src', '../assets/images/image6.jpg');
+    $('#soft-skill-3').removeClass('img.soft-skills-image');
+    $('#soft-skill-3').addClass('soft-skills-image-2');
+  });
+ 
+  $('.soft-skill-container').on('mouseleave', function() {
+    $('#soft-skill-1').attr('src', image1);
+    $('#soft-skill-2').attr('src', image2);
+    $('#soft-skill-3').attr('src', image3);
+    $('#soft-skill-1').removeClass('soft-skills-image-2');
+    $('#soft-skill-2').removeClass('soft-skills-image-2');
+    $('#soft-skill-3').removeClass('soft-skills-image-2');
+    $('#soft-skill-1').addClass('img.soft-skills-image');
+    $('#soft-skill-2').addClass('img.soft-skills-image');
+    $('#soft-skill-3').addClass('img.soft-skills-image');
+  });
 });
   
