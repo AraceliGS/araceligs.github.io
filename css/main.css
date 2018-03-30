@@ -367,9 +367,9 @@ footer {
     align-items: flex-end;
   }
 
-  /* .soft-skill-container {
-    width: 40%;
-  } */
+  .soft-skill-container {
+    width: 35%;
+  }
 
   img.soft-skills-image {
     width: 100%;
